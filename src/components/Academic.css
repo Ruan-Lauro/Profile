@@ -51,7 +51,7 @@
 
 @media (max-width:600px){
     .all-academic-infor{
-        margin: 0;
+        margin: 0 2rem;
     }
     .all-academic-infor-text{
         width: 100%;
