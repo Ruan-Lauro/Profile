@@ -13,6 +13,7 @@ import power from "../assets/power-point.png"
 import word from "../assets/palavra.png"
 import excel from "../assets/excel.png"
 import office from "../assets/escritorio.png"
+import git from "../assets/Git-Icon-1788C.png"
 
 import "./knowledge.css"
 
@@ -48,6 +49,10 @@ const Knowledge = () => {
             <div className="img-ling">
                 <img src={next} alt="Next" />
                 <p className="text-ling">Next.js</p>
+            </div>
+            <div className="img-ling">
+                <img src={git} alt="Git" />
+                <p className="text-ling">Git/Github</p>
             </div>
         </section>
         <section className="knowledge-ling">
