@@ -1,0 +1,41 @@
+.all-about{
+    display: flex;
+    width: 100%;
+    margin-top: 6rem;
+    background-color: #383738;
+    justify-content: center;
+}
+
+.all-about-infor{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    text-align: justify;
+}
+
+.about{
+    font-size: 1.2rem;
+    color: #D93644;
+    margin-bottom: 0.3rem;
+}
+
+.title{
+    font-size: 1.8rem;
+    color: #DEDADE;
+    margin-bottom: 0.8rem;
+}
+
+.title-infor{
+    font-size: 1.2rem;
+    color: #DEDADE;
+}
+
+@media (max-width: 600px){
+    .all-about-infor{
+        width: 100vh;
+        text-align: justify;
+        margin: 3rem 1rem;
+    }
+}

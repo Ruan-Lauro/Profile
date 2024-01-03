@@ -1,0 +1,227 @@
+.all-other{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 8rem;
+    align-items: center;
+
+}
+
+.all-other-infor{
+    display: flex;
+    width: 60rem;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.all-other h2{
+    color: #DEDADE;
+    margin-bottom: 5rem;
+    font-size: 2.2rem;
+}
+
+.lin1{
+    background-color: #DEDADE;
+    width: 0.5rem;
+    height: 28rem;
+}
+
+
+.circle{
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    background-color: #D93644;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5rem;
+}
+
+.circle img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.data-other{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #DEDADE;
+}
+
+.lin2{
+    background-color: #DEDADE;
+    width: 6rem;
+    height: 0.5rem;
+}
+
+.elementOne{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 1rem;
+    right: 15rem;
+}
+
+.elementTwo{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 7rem;
+    left: 8.5rem;
+}
+
+.elementThree{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 13rem;
+    right: 8.5rem;
+}
+
+.elementFour{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 19rem;
+    left: 12.5rem;
+}
+
+@media (max-width: 960px){
+    .all-other-infor{
+        width: 40rem;
+    }
+    .data-other{
+        flex-direction: column;
+        align-items: start;
+        
+    }
+    .elementOne{
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 1rem;
+        right: 8.5rem;
+    }
+    
+    .elementTwo{
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 7rem;
+        left: 2rem;
+    }
+
+    #data-soft{
+        align-items: end;
+
+    }
+
+    #data-soft p{
+        display: flex;
+    }
+    
+    .elementThree{
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 13rem;
+        right: 2rem;
+    }
+
+    #data-struc{
+        align-items: end;
+    }
+    
+    .elementFour{
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 19rem;
+        left: 6rem;
+    }
+    
+}
+
+@media (max-width: 650px){
+    .all-other-infor{
+        width: 1.7rem;
+    }
+
+    .all-other h2{
+        text-align: center;
+    }
+
+    .data-other{
+        flex-direction: column;
+        align-items: start;
+        font-size: 1rem;
+    }
+
+    .lin2{
+        background-color: #DEDADE;
+        width: 2rem;
+        height: 0.5rem;
+    }
+
+    .elementOne{
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 1rem;
+        right: -5.8rem;
+    }
+    
+    .elementTwo{
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 7rem;
+        left: -8rem;
+    }
+
+    #data-soft{
+        align-items: end;
+    }
+
+    #data-soft p{
+        display: flex;
+        width: 7rem;
+        text-align: end;
+    }
+    
+    .elementThree{
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 13rem;
+        right: -8rem;
+    }
+
+    #data-struc{
+        align-items: end;
+    }
+
+    #data-struc p{
+        width: 6rem;
+        text-align: end;
+    }
+
+    #data-base{
+        width: 7rem;
+    }
+    
+    .elementFour{
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 19rem;
+        left: -7rem;
+    }
+    
+}
+

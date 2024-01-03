@@ -1,0 +1,62 @@
+.all-academic{
+    display: flex;
+    align-items: center;
+    margin-top: 9rem;
+}
+
+.all-academic-infor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.all-academic-infor-h2{
+    font-size: 2.2rem;
+    color: #DEDADE;
+    margin-bottom: 6rem;
+    text-align: center;
+}
+
+.all-academic-infor-text{
+    width: 60%;
+}
+
+.academic-experience{
+    margin-bottom: 2rem;
+}
+
+.intro-academic{
+    font-size: 1.8rem;
+    color:  #D93644;
+    margin-bottom: 1rem;
+}
+
+.text-academic{
+    font-size: 1.2rem;
+    color: #DEDADE;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.link{
+    text-decoration: none;
+    color: #DEDADE;
+    font-size: 1.2rem;
+    display: flex;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+@media (max-width:600px){
+    .all-academic-infor{
+        margin: 0;
+    }
+    .all-academic-infor-text{
+        width: 100%;
+    }
+    .all-academic{
+        width: 100%;
+    }
+}

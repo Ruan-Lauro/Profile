@@ -1,0 +1,115 @@
+.all-presentation{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.all-presentation-infor{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+}
+
+.Portfolio{
+    font-size: 2rem;
+    align-self: start;
+    color: #D93644;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}
+
+.Content{
+    display: flex;
+    margin-top: 6rem;
+}
+
+.text-start-infor{
+    width: 30rem;
+    margin-top: 1.5rem;
+}
+
+.text-start-infor-name{
+    color: #D93644;
+    font-size: 1.2rem;
+}
+
+.text-start-infor-h2{
+    color: #DEDADE;
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.text-start-infor-presentation{
+    color: #DEDADE;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact img{
+    width: 2rem;
+    margin-right: .5rem;
+}
+
+.contact img:hover{
+    width: 2.5rem;
+}
+
+.div-img{
+    background-color: #A4A3A3;
+    margin-left: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    box-shadow: 20px 20px 1px 1px #282728;
+}
+
+.photo-perfil{
+    width: 220px;
+}
+
+@media (max-width: 1020px){
+    .text-start-infor{
+        width: 20rem;
+    }
+}
+
+@media (max-width: 700px){
+    .text-start-infor{
+        width: 30rem;
+    }
+
+    .Content{
+        margin-top: 2.5rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div-img{
+        margin-left: 0;
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 530px){
+    .text-start-infor{
+        width: 20rem;
+       
+    }
+
+    .photo-perfil{
+        width: 180px;
+    }
+}
+
+@media (max-width: 320px){
+    .text-start-infor{
+        width: 15rem;
+       
+    }
+
+    .photo-perfil{
+        width: 180px;
+    }
+}
