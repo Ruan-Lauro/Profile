@@ -36,7 +36,7 @@ const Academic = () => {
                         for its manipulation and creation.
                         <br />
                         -Indexing and standardization strategies.</p>
-                    <a href="https://muralvirtualmv.netlify.app//" className="link" id="linkMural"><p className="link-academic">https://muralvirtualmv.netlify.app//</p></a>
+                    <a href="https://muralvirtualmv.netlify.app/" className="link" id="linkMural"><p className="link-academic">https://muralvirtualmv.netlify.app/</p></a>
                 </div>
                 <div className="academic-experience">
                     <h2 className="intro-academic">Calculadora IMC</h2>
