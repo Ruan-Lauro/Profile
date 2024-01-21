@@ -9,7 +9,7 @@ const Academic = () => {
                 <div className="academic-experience">
                     <h2 className="intro-academic">Mural Virtual 1.0</h2>
                     <p className="text-academic">The Virtual Wall is an application created to help an institution or company with information. It allows the user to make a post and other users to see it, but it has control from the administrator user, as he or she has control over the messages. This application was created using CSS, HTMl and Javascript.</p>
-                    <a href="https://mural-virtual.netlify.app/" className="link" ><p className="link-academic">https://mural-virtual.netlify.app/</p></a>
+                    <a href="https://github.com/flavioedu-dev/mural-virtual" className="link" ><p className="link-academic">https://github.com/flavioedu-dev/mural-virtual</p></a>
                 </div>
                 <div className="academic-experience">
                     <h2 className="intro-academic">Mural Virtual 2.0</h2>
@@ -36,22 +36,22 @@ const Academic = () => {
                         for its manipulation and creation.
                         <br />
                         -Indexing and standardization strategies.</p>
-                    <a href="https://muralvirtualmv.netlify.app/" className="link" id="linkMural"><p className="link-academic">https://muralvirtualmv.netlify.app/</p></a>
+                    <a href="https://github.com/Ruan-Lauro/virtual-wall" className="link" id="linkMural"><p className="link-academic">https://github.com/Ruan-Lauro/virtual-wall</p></a>
                 </div>
                 <div className="academic-experience">
                     <h2 className="intro-academic">Calculadora IMC</h2>
                     <p className="text-academic"> It is a website that allows the user to calculate their BMI and see their condition. Site was created using React.js and Javascript.</p>
-                    <a href="https://main--stellar-dodol-0d8a2c.netlify.app/" className="link"><p className="link-academic">https://main--stellar-dodol-0d8a2c.netlify.app/</p></a>
+                    <a href="https://github.com/Ruan-Lauro/CalculadoraIMC" className="link"><p className="link-academic">https://github.com/Ruan-Lauro/CalculadoraIMC</p></a>
                 </div>
                 <div className="academic-experience">
                     <h2 className="intro-academic">Quiz</h2>
                     <p className="text-academic">It's a quiz that tests your knowledge of JavaScript, HTML and CSS. Website developed using React.js and Javascript.</p>
-                    <a href="https://main--sensational-wisp-7c9e25.netlify.app/" className="link"><p className="link-academic">https://main--sensational-wisp-7c9e25.netlify.app/</p></a>
+                    <a href="https://github.com/Ruan-Lauro/Quiz-react" className="link"><p className="link-academic">https://github.com/Ruan-Lauro/Quiz-react</p></a>
                 </div>
                 <div className="academic-experience">
                     <h2 className="intro-academic">Contador</h2>
                     <p className="text-academic">This website allows the user to create a date and set their time, being able to customize their colors and theme, creating a counter for the given date and time. This application was created using React.js and Javascript.</p>
-                    <a href="https://main--shimmering-yeot-f98dba.netlify.app/" className="link"><p className="link-academic">https://main--shimmering-yeot-f98dba.netlify.app/</p></a>
+                    <a href="https://github.com/Ruan-Lauro/Contador" className="link"><p className="link-academic">https://github.com/Ruan-Lauro/Contador</p></a>
                 </div>
                 
             </div>
