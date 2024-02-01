@@ -46,6 +46,10 @@ const Knowledge = () => {
                 <img src={react} alt="react" />
                 <p className="text-ling">React.js</p>
             </div>
+            <div className="img-ling" id="react">
+                <img src={react} alt="react native" />
+                <p className="text-ling">React Native</p>
+            </div>
             <div className="img-ling">
                 <img src={next} alt="Next" />
                 <p className="text-ling">Next.js</p>
@@ -54,9 +58,7 @@ const Knowledge = () => {
                 <img src={git} alt="Git" />
                 <p className="text-ling">Git/Github</p>
             </div>
-        </section>
-        <section className="knowledge-ling">
-        <div className="img-ling">
+            <div className="img-ling">
                 <img src={post} alt="postgresql" />
                 <p className="text-ling">Postgresql</p>
             </div>
@@ -88,8 +90,8 @@ const Knowledge = () => {
                 <img src={office} alt="Office" />
                 <p className="text-ling">Office</p>
             </div>
-            
         </section>
+        
     </main>
   )
 }
