@@ -14,9 +14,11 @@
 
 .knowledge-ling{
     display: flex;
+    position: relative;
     margin-bottom: 4rem;
     flex-wrap: wrap;
     justify-content: center; 
+    height: 15rem;
 }
 
 .img-ling{
@@ -35,18 +37,19 @@
 }
 
 .img-ling img:hover{
-    width: 110%;
+    width: 4.5rem;
 }
 
 .text-ling{
     color: #DEDADE;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 #react{
     margin-top: 0.65rem;
 }
+
 
 #office{
     margin-right: 0;

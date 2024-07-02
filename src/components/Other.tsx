@@ -14,7 +14,7 @@ const Other = () => {
             <div className="elementOne">
                 <div className="lin2"></div>
                 <div className="data-other">
-                    <div className="circle">
+                    <div className="circleTwo">
                         <img src={database} alt="database" />
                     </div>
                     <p>Database</p>
@@ -32,7 +32,7 @@ const Other = () => {
             <div className="elementThree" >
                 <div className="lin2"></div>
                 <div className="data-other" id="data-base">
-                    <div className="circle">
+                    <div className="circleTwo">
                         <img src={english} alt="database" />
                     </div>
                     <p>Software Engineering</p>
